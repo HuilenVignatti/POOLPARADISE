@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.header-cont{
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  position:sticky;
+  top: 0px;
+  bottom: 0px;
+ 
+}
+
+.logo-header img{
+    width: 60%;
+    margin-right: 50%;
+}
+
+.navbar-cont {
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    
+}
+
+.navbar-cont div a{
+   text-decoration: none;
+   font-size: 2rem;
+   color: rgb(6, 162, 252);
+}
+
+.banner-index img{
+    width: 100%;
+    height: 15rem;
+   
+}
+
+ .sumergite-cont{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    /*aplicar animacion a la frase*/
+        
+}
+
+.sumergite-cont:hover{
+    transform:scale(1.2);
+    transition: 1s;
+}
+
+ .menu-main{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-left: 2.5rem;
+    
+ }
+
+ .menu-main a img{
+    width: 90%;
+    border-radius: 10%;
+    gap: 3rem;
+   
+ }
+
+ .iframe-cont{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    gap: 1rem;
+    margin-top: 6rem;
+    background-color: rgb(6, 162, 252);
+    
+ }
+
+.teesperamos{
+    color: #fff;
+    border: 0.05rem solid #fff;
+    text-align: center;
+      
+ }
+
+.footer-cont{
+    width: 100%;
+    height: 3rem;
+    margin-top: 2em;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    color: rgb(73, 171, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .rrss-cont{
+    display: flex;
+    width: 33%;
+ 
+    
+ }
+
+ .rrss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+.rrss img{
+     width: 3rem;
+       
+ }
+
+.rrss li {
+    list-style: none;
+}
+
+.logo-footer{
+   margin-left: 8rem; 
+}
+
+ .logo-footer img{
+    width: 30%;
+    
+ }
+
+
+ .derechos{
+    font-size: 1.1rem;
+    margin-right: 2rem;
+ }
+
+ .nosotros-cont{
+  text-align: center;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+ }
+
+ .nosotros-cont h1{
+     color:rgb(6, 162, 252);
+     margin-bottom: 1rem;
+ }
+
+
+ .servicios-cont{
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;  
+ }
+
+ .servicios-cont h1{
+    color: rgb(6, 162, 252);
+ }
+
+
+ .servicios-list{
+    list-style: none;
+ }
+
+ .trabajos-cont{
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;    
+ }
+
+ .trabajos-cont h1{
+    color: rgb(6, 162, 252);   
+ }
+
+ .contacto-cont{
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;   
+ }
+
+ .contacto-cont h1{
+    color: rgb(6, 162, 252);
+ }
+
+ .iframecontac-cont{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    gap: 1rem;
+    margin-top: 4rem;
+    background-color: rgb(6, 162, 252);
+ }
+
+.teesperamos-contacto{
+    color: #fff;
+    border: 0.05rem solid #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+ 

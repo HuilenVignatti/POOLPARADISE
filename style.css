@@ -13,10 +13,6 @@ body{
   background-color: #fff;
   width: 100%;
   display: flex;
-  position:sticky;
-  top: 0px;
-  bottom: 0px;
- 
 }
 
 .logo-header img{
@@ -28,8 +24,7 @@ body{
     width: 80%;
     display: flex;
     justify-content:space-around;
-    align-items: flex-end;
-    
+    align-items: flex-end;   
 }
 
 .navbar-cont div a{
@@ -40,19 +35,17 @@ body{
 
 .banner-index img{
     width: 100%;
-    height: 15rem;
-   
+    height: 15rem;   
 }
 
  .sumergite-cont{
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    text-align: center;
-    /*aplicar animacion a la frase*/
-        
+    text-align: center;        
 }
 
+/*Animacion*/
 .sumergite-cont:hover{
     transform:scale(1.2);
     transition: 1s;
@@ -61,16 +54,20 @@ body{
  .menu-main{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
-     margin-left: 2.5rem;
-    
- }
+     margin-left: 2.5rem;   
+}
+
+/*Animacion*/
+ .menu-main a:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
 
  .menu-main a img{
     width: 90%;
     border-radius: 10%;
     gap: 3rem;
-   
- }
+}
 
  .iframe-cont{
     display: flex;
@@ -81,14 +78,12 @@ body{
     gap: 1rem;
     margin-top: 6rem;
     background-color: rgb(6, 162, 252);
-    
- }
+    }
 
 .teesperamos{
     color: #fff;
     border: 0.05rem solid #fff;
-    text-align: center;
-      
+    text-align: center; 
  }
 
 .footer-cont{
@@ -105,21 +100,17 @@ body{
 
  .rrss-cont{
     display: flex;
-    width: 33%;
- 
-    
+    width: 33%;   
  }
 
  .rrss{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
  }
 
 .rrss img{
-     width: 3rem;
-       
+     width: 3rem;    
  }
 
 .rrss li {
@@ -131,9 +122,8 @@ body{
 }
 
  .logo-footer img{
-    width: 30%;
-    
- }
+    width: 30%;    
+}
 
 
  .derechos{
@@ -154,6 +144,11 @@ body{
      margin-bottom: 1rem;
  }
 
+ /*Animacion*/
+ .nosotros-cont h1:hover{
+   transform:scale(1.2);
+   transition: 1s;
+ }
 
  .servicios-cont{
     text-align: center;
@@ -166,7 +161,12 @@ body{
  .servicios-cont h1{
     color: rgb(6, 162, 252);
  }
-
+ 
+ /*Animacion*/
+ .servicios-cont h1:hover{
+   transform:scale(1.2);
+   transition: 1s;
+ }
 
  .servicios-list{
     list-style: none;
@@ -184,6 +184,12 @@ body{
     color: rgb(6, 162, 252);   
  }
 
+ /*Animacion*/
+ .trabajos-cont h1:hover{
+   transform:scale(1.2);
+   transition: 1s;
+ }
+
  .contacto-cont{
     text-align: center;
     margin-top: 4rem;
@@ -194,6 +200,12 @@ body{
 
  .contacto-cont h1{
     color: rgb(6, 162, 252);
+ }
+
+ /*Animacion*/
+ .contacto-cont h1:hover{
+   transform:scale(1.2);
+   transition: 1s;
  }
 
  .iframecontac-cont{
@@ -214,4 +226,6 @@ body{
     width: 100%;
     height: 100%;
 }
+
+
  
